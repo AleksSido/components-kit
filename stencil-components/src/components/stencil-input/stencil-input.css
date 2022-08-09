@@ -1,0 +1,56 @@
+:host {
+  display: block;
+}
+
+.input {
+  display: block;
+  border-radius: 0;
+  border: 1px solid #4e4e4e;
+  color: #4e4e4e;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 8px;
+}
+.input:focus {
+  outline: unset;
+}
+.input,
+.input.input_small{
+  width: 160px;
+}
+.input.input_medium{
+  width: 320px;
+}
+.input.input_large{
+  width: 480px;
+}
+.input.input_full{
+  width: 100%;
+}
+.input.input_error {
+  border: 1px solid #d30038;
+  background-color: rgba(211, 0, 56, 0.05);
+}
+.input.input_valid {
+  border: 1px solid #04AA6D;
+}
+
+.validation-status {
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+}
+.validation-status_error {
+  color: #d30038;
+}
+.validation-status_valid {
+  color: #04AA6D;
+}
+
+.label {
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4e4e4e;
+}
